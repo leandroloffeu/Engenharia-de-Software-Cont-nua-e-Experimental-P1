@@ -79,7 +79,7 @@ python start_server.py
 ### ✅ Gráficos Interativos
 - **Evolução Temporal:** 2021-2023 (3, 4, 5 artigos)
 - **Tipos de Estudo:** 6 categorias com contagem exata
-- **Países:** Top 10 países representados
+- **Países:** 10 países representados
 - **Focos de Pesquisa:** Análise de palavras-chave
 
 ## 🎨 Características Técnicas
@@ -105,7 +105,7 @@ python start_server.py
 - **Case Study:** 2 artigos
 - **Comparative Study:** 1 artigo
 
-### Top Países:
+### Países:
 - **China:** 2 artigos
 - **Estados Unidos:** 1 artigo
 - **Brasil:** 1 artigo
