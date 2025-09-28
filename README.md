@@ -3,7 +3,7 @@
 # Engenharia de Software
 ### Leandro Loffeu Pereira Costa - mat. 202212089
 ### Engenharia de Software Contínua e Experimental - 8º Período
-### Professor: Tiago Ruiz
+### Professor: Márcio Guarrido
 
 ## 📋 Revisão Bibliográfica Sistemática
 
