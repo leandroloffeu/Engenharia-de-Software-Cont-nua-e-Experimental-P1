@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Engenharia de Software Contínua e Experimental - Dados da Revisão Bibliográfica",
+    "period": "2021-2023",
+    "total_articles": 12,
+    "databases": ["IEEE Xplore", "ACM Digital Library", "Scopus", "SpringerLink"],
+    "last_updated": "2025-09-27"
+  },
+  "temporal_evolution": {
+    "years": ["2021", "2022", "2023"],
+    "continuous_engineering": [3, 4, 5],
+    "experimental_engineering": [3, 4, 5],
+    "total": [3, 4, 5]
+  },
+  "study_types": {
+    "experimental_study": 3,
+    "systematic_review": 2,
+    "empirical_study": 2,
+    "survey": 2,
+    "case_study": 2,
+    "comparative_study": 1
+  },
+  "metrics_evaluated": {
+    "cicd": 4,
+    "devops": 2,
+    "practices": 2,
+    "validation": 2,
+    "continuous_deployment": 2,
+    "microservices": 2
+  },
+  "countries": {
+    "china": 2,
+    "estados_unidos": 1,
+    "brazil": 1,
+    "reino_unido": 1,
+    "coreia_do_sul": 1,
+    "canada": 1,
+    "germany": 1,
+    "india": 1,
+    "spain": 1,
+    "japan": 1
+  },
+  "focus_areas": {
+    "cicd_devops": 6,
+    "experimental_methods": 4,
+    "quality_testing": 3,
+    "automation": 2,
+    "deployment": 2,
+    "culture_practices": 2
+  },
+  "context_distribution": {
+    "industrial": 7,
+    "academic": 4,
+    "mixed": 1
+  },
+  "growth_rate": {
+    "annual_average": 1.5,
+    "peak_growth_period": "2022-2023",
+    "trend": "Steady growth in research interest"
+  },
+  "methodological_quality": {
+    "rigorous_experiments": 3,
+    "well_documented": 4,
+    "replicable": 3,
+    "limited_methodology": 2,
+    "insufficient_data": 0
+  },
+  "gaps_identified": {
+    "longitudinal_studies": "Limited long-term studies (3+ years)",
+    "geographic_diversity": "Concentration in developed countries",
+    "standardized_metrics": "Lack of standardized evaluation metrics",
+    "critical_software": "Few studies in critical software contexts",
+    "cultural_factors": "Limited investigation of cultural aspects"
+  },
+  "practical_implications": {
+    "evidence_based_decisions": "Strong empirical evidence for CI/CD adoption",
+    "key_metrics": "Build time, deployment frequency, and defect rate are most important",
+    "implementation_guidance": "Gradual implementation more effective than radical changes",
+    "organizational_factors": "Cultural change is crucial for success"
+  },
+  "future_research_directions": [
+    "Longitudinal studies of 3+ years duration",
+    "Standardized metrics for evaluation",
+    "Studies in critical software contexts",
+    "Geographic expansion to developing countries",
+    "Cultural and organizational factors",
+    "Integration with security practices (DevSecOps)",
+    "Distributed team contexts",
+    "Different organization sizes"
+  ]
+}

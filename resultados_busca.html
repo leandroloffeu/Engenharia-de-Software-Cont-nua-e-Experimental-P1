@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Busca - Artigos Acadêmicos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><i class="fas fa-search"></i> Resultados da Busca Acadêmica</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">← Voltar ao Trabalho</a></li>
+                <li><a href="#estatisticas" class="nav-link">Estatísticas</a></li>
+                <li><a href="#tabela" class="nav-link">Tabela Completa</a></li>
+                <li><a href="#graficos" class="nav-link">Gráficos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Resultados da Busca Bibliográfica</h1>
+            <p class="hero-description">
+                Análise completa de artigos acadêmicos sobre Engenharia de Software Contínua e Experimental
+            </p>
+            <div class="hero-stats" id="estatisticas">
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Artigos Encontrados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">11</span>
+                    <span class="stat-label">Países</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Tipos de Estudo</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Bases de Dados</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Resumo da Busca -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Resumo da Busca Realizada</h2>
+                <div class="search-summary">
+                    <div class="summary-card">
+                        <h3><i class="fas fa-search"></i> Strings de Busca</h3>
+                        <ul>
+                            <li>"Continuous Software Engineering"</li>
+                            <li>"Experimental Software Engineering"</li>
+                            <li>"DevOps empirical studies"</li>
+                        </ul>
+                    </div>
+                    <div class="summary-card">
+                        <h3><i class="fas fa-database"></i> Bases Consultadas</h3>
+                        <ul>
+                            <li>IEEE Xplore</li>
+                            <li>ACM Digital Library</li>
+                            <li>Scopus</li>
+                            <li>SpringerLink</li>
+                        </ul>
+                    </div>
+                    <div class="summary-card">
+                        <h3><i class="fas fa-filter"></i> Critérios de Seleção</h3>
+                        <ul>
+                            <li>Período: 2015-2025</li>
+                            <li>Peer-reviewed</li>
+                            <li>Idioma: Inglês</li>
+                            <li>Foco: Engenharia de Software</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gráficos de Análise -->
+        <section class="section section-alt" id="graficos">
+            <div class="container">
+                <h2 class="section-title">Análise Visual dos Resultados</h2>
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h4>Distribuição por Ano</h4>
+                        <div class="chart-container">
+                            <canvas id="anoChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Distribuição por País</h4>
+                        <div class="chart-container">
+                            <canvas id="paisChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Tipos de Estudo</h4>
+                        <div class="chart-container">
+                            <canvas id="tipoChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h4>Fontes de Publicação</h4>
+                        <div class="chart-container">
+                            <canvas id="fonteChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabela Completa -->
+        <section class="section" id="tabela">
+            <div class="container">
+                <h2 class="section-title">Tabela Completa de Artigos</h2>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th><i class="fas fa-calendar"></i> Ano</th>
+                                <th><i class="fas fa-user"></i> Autores/País</th>
+                                <th><i class="fas fa-flask"></i> Tipo de Estudo</th>
+                                <th><i class="fas fa-target"></i> Foco</th>
+                                <th><i class="fas fa-chart-line"></i> Resultados</th>
+                                <th><i class="fas fa-book"></i> Fonte</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-artigos">
+                            <!-- Dados serão carregados via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Análise Detalhada -->
+        <section class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Análise Detalhada</h2>
+                <div class="analysis-grid">
+                    <div class="analysis-card">
+                        <h3><i class="fas fa-trending-up"></i> Tendências Temporais</h3>
+                        <p id="analise-temporal">Carregando análise...</p>
+                    </div>
+                    <div class="analysis-card">
+                        <h3><i class="fas fa-globe"></i> Distribuição Geográfica</h3>
+                        <p id="analise-geografica">Carregando análise...</p>
+                    </div>
+                    <div class="analysis-card">
+                        <h3><i class="fas fa-microscope"></i> Metodologias</h3>
+                        <p id="analise-metodologica">Carregando análise...</p>
+                    </div>
+                    <div class="analysis-card">
+                        <h3><i class="fas fa-lightbulb"></i> Principais Descobertas</h3>
+                        <p id="analise-descobertas">Carregando análise...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Engenharia de Software Contínua e Experimental</h3>
+                    <p>Revisão Bibliográfica Sistemática</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Autor</h4>
+                    <p>Leandro Loffeu</p>
+                    <p>Universidade de Vassouras</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Período</h4>
+                    <p>2015 - 2025</p>
+                    <p>Bases: IEEE, ACM, Scopus, Springer</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 - Trabalho Acadêmico. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/resultados_busca.js"></script>
+</body>
+</html>

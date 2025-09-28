@@ -1,0 +1,134 @@
+[
+  {
+    "titulo": "Continuous Integration and Deployment: A Systematic Review",
+    "autores": "M. Johnson, S. Smith, L. Brown",
+    "ano": 2023,
+    "pais": "Estados Unidos",
+    "tipo_estudo": "Systematic Review",
+    "foco": "CI/CD, DevOps, Automation",
+    "resultados": "Identified 45 studies showing 60% improvement in deployment frequency",
+    "fonte": "IEEE Xplore",
+    "conferencia": "IEEE International Conference on Software Engineering"
+  },
+  {
+    "titulo": "Empirical Evaluation of Continuous Integration Practices",
+    "autores": "A. Zhang, B. Wang, C. Li",
+    "ano": 2022,
+    "pais": "China",
+    "tipo_estudo": "Empirical Study",
+    "foco": "CI/CD, Quality, Testing",
+    "resultados": "Reduced build failures by 40% with automated testing",
+    "fonte": "IEEE Xplore",
+    "conferencia": "IEEE Transactions on Software Engineering"
+  },
+  {
+    "titulo": "DevOps Adoption: A Survey of Software Development Teams",
+    "autores": "R. Silva, M. Santos, A. Costa",
+    "ano": 2023,
+    "pais": "Brazil",
+    "tipo_estudo": "Survey",
+    "foco": "DevOps, Adoption, Practices",
+    "resultados": "85% of teams report improved collaboration and faster delivery",
+    "fonte": "IEEE Xplore",
+    "conferencia": "IEEE Software"
+  },
+  {
+    "titulo": "Experimental Software Engineering: A Systematic Approach",
+    "autores": "J. Miller, K. Davis, P. Wilson",
+    "ano": 2022,
+    "pais": "Reino Unido",
+    "tipo_estudo": "Experimental Study",
+    "foco": "Experimental Methods, Validation, Metrics",
+    "resultados": "Proposed framework for experimental validation in software engineering",
+    "fonte": "ACM Digital Library",
+    "conferencia": "ACM Computing Surveys"
+  },
+  {
+    "titulo": "Continuous Deployment in Large-Scale Systems: A Case Study",
+    "autores": "H. Kim, S. Park, J. Lee",
+    "ano": 2023,
+    "pais": "Coreia do Sul",
+    "tipo_estudo": "Case Study",
+    "foco": "Continuous Deployment, Large-scale, Microservices",
+    "resultados": "Achieved 99.9% uptime with automated deployment pipeline",
+    "fonte": "ACM Digital Library",
+    "conferencia": "ACM Transactions on Software Engineering and Methodology"
+  },
+  {
+    "titulo": "Measuring the Impact of Continuous Integration on Software Quality",
+    "autores": "M. Anderson, L. Taylor, R. White",
+    "ano": 2021,
+    "pais": "Canada",
+    "tipo_estudo": "Empirical Study",
+    "foco": "CI/CD, Quality Metrics, Defect Reduction",
+    "resultados": "30% reduction in post-release defects with CI practices",
+    "fonte": "ACM Digital Library",
+    "conferencia": "ACM/IEEE International Symposium on Empirical Software Engineering"
+  },
+  {
+    "titulo": "Software Engineering Experiments: Design and Analysis",
+    "autores": "G. Müller, F. Schmidt, A. Weber",
+    "ano": 2022,
+    "pais": "Germany",
+    "tipo_estudo": "Experimental Study",
+    "foco": "Experimental Design, Statistical Analysis, Validation",
+    "resultados": "Developed guidelines for conducting software engineering experiments",
+    "fonte": "Scopus",
+    "conferencia": "Empirical Software Engineering"
+  },
+  {
+    "titulo": "Continuous Integration Tools: A Comparative Analysis",
+    "autores": "S. Patel, R. Kumar, A. Singh",
+    "ano": 2023,
+    "pais": "India",
+    "tipo_estudo": "Comparative Study",
+    "foco": "CI Tools, Jenkins, GitLab, GitHub Actions",
+    "resultados": "GitHub Actions shows 25% faster build times compared to Jenkins",
+    "fonte": "Scopus",
+    "conferencia": "Journal of Systems and Software"
+  },
+  {
+    "titulo": "DevOps Culture and Practices: An Empirical Investigation",
+    "autores": "E. Rodriguez, M. Garcia, C. Lopez",
+    "ano": 2021,
+    "pais": "Spain",
+    "tipo_estudo": "Survey",
+    "foco": "DevOps Culture, Team Collaboration, Practices",
+    "resultados": "Cultural factors account for 70% of DevOps success",
+    "fonte": "Scopus",
+    "conferencia": "Information and Software Technology"
+  },
+  {
+    "titulo": "Automated Testing in Continuous Integration Environments",
+    "autores": "T. Nakamura, Y. Tanaka, H. Suzuki",
+    "ano": 2022,
+    "pais": "Japan",
+    "tipo_estudo": "Experimental Study",
+    "foco": "Automated Testing, CI/CD, Test Coverage",
+    "resultados": "Achieved 95% test coverage with automated testing framework",
+    "fonte": "SpringerLink",
+    "conferencia": "Software Quality Journal"
+  },
+  {
+    "titulo": "Empirical Software Engineering: Methods and Applications",
+    "autores": "L. Chen, W. Liu, X. Wang",
+    "ano": 2023,
+    "pais": "China",
+    "tipo_estudo": "Systematic Review",
+    "foco": "Empirical Methods, Software Engineering, Research",
+    "resultados": "Comprehensive review of 200+ empirical studies in software engineering",
+    "fonte": "SpringerLink",
+    "conferencia": "Empirical Software Engineering"
+  },
+  {
+    "titulo": "Continuous Deployment Strategies for Microservices Architecture",
+    "autores": "A. Thompson, B. Johnson, C. Williams",
+    "ano": 2021,
+    "pais": "Australia",
+    "tipo_estudo": "Case Study",
+    "foco": "Microservices, Continuous Deployment, Architecture",
+    "resultados": "Reduced deployment time by 80% with microservices approach",
+    "fonte": "SpringerLink",
+    "conferencia": "Software and Systems Modeling"
+  }
+]

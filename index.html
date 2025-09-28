@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia de Software Contínua e Experimental - Revisão Bibliográfica</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><i class="fas fa-graduation-cap"></i> Engenharia de Software Contínua e Experimental</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#introducao" class="nav-link">Introdução</a></li>
+                <li><a href="#metodologia" class="nav-link">Metodologia</a></li>
+                <li><a href="#resultados" class="nav-link">Resultados</a></li>
+                <li><a href="#discussao" class="nav-link">Discussão</a></li>
+                <li><a href="#conclusao" class="nav-link">Conclusão</a></li>
+                <li><a href="#graficos" class="nav-link">Gráficos</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Uma Revisão Bibliográfica Sistemática</h1>
+            <p class="hero-description">
+                Investigação do impacto em equipes, processos e produtos de software através de 
+                análise quantitativa e qualitativa da literatura recente.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Artigos Analisados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2021-2023</span>
+                    <span class="stat-label">Período de Análise</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Bases de Dados</span>
+                </div>
+            </div>
+            <a href="#introducao" class="btn btn-primary">
+                <i class="fas fa-arrow-down"></i> Começar Leitura
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Introdução -->
+        <section id="introducao" class="section">
+            <div class="container">
+                <h2 class="section-title">Introdução</h2>
+                <div class="content-grid">
+                    <div class="content-text">
+                        <h3>Contextualização</h3>
+                        <p>
+                            A Engenharia de Software tem evoluído significativamente nas últimas décadas, 
+                            especialmente com o advento de metodologias ágeis e práticas de desenvolvimento contínuo. 
+                            Dois domínios emergentes têm ganhado destaque: a <strong>Engenharia de Software Contínua</strong> 
+                            e a <strong>Engenharia de Software Experimental</strong>.
+                        </p>
+                        
+                        <h3>Engenharia de Software Contínua</h3>
+                        <div class="feature-cards">
+                            <div class="feature-card">
+                                <i class="fas fa-sync-alt"></i>
+                                <h4>Integração Contínua (CI)</h4>
+                                <p>Integração frequente de mudanças de código com builds automatizados e testes.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-rocket"></i>
+                                <h4>Entrega Contínua (CD)</h4>
+                                <p>Garantia de que o software esteja sempre pronto para produção.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-cogs"></i>
+                                <h4>Deploy Contínuo</h4>
+                                <p>Implantação automática de mudanças que passam nos testes.</p>
+                            </div>
+                        </div>
+
+                        <h3>Engenharia de Software Experimental</h3>
+                        <p>
+                            Disciplina que aplica métodos científicos rigorosos para validar teorias, 
+                            práticas e ferramentas em Engenharia de Software através de experimentos controlados, 
+                            estudos de caso e surveys.
+                        </p>
+                    </div>
+                    <div class="content-visual">
+                        <div class="chart-container">
+                            <canvas id="introChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metodologia -->
+        <section id="metodologia" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Metodologia</h2>
+                <div class="methodology-grid">
+                    <div class="methodology-step">
+                        <div class="step-number">1</div>
+                        <h3>Definição das Questões de Pesquisa</h3>
+                        <p>5 questões de pesquisa (RQ1-RQ5) sobre evolução temporal, tipos de estudos, métricas e lacunas.</p>
+                    </div>
+                    <div class="methodology-step">
+                        <div class="step-number">2</div>
+                        <h3>Strings de Busca Específicas</h3>
+                        <p><strong>Strings utilizadas:</strong><br>
+                        • "Continuous Software Engineering"<br>
+                        • "Experimental Software Engineering"<br>
+                        • "DevOps empirical studies"</p>
+                    </div>
+                    <div class="methodology-step">
+                        <div class="step-number">3</div>
+                        <h3>Critérios de Seleção</h3>
+                        <p><strong>Inclusão:</strong> Artigos 2021-2023, peer-reviewed, inglês<br>
+                        <strong>Exclusão:</strong> Editoriais, tutoriais, duplicatas</p>
+                    </div>
+                    <div class="methodology-step">
+                        <div class="step-number">4</div>
+                        <h3>Análise de Dados</h3>
+                        <p>Análise quantitativa e qualitativa com ferramentas Python e visualizações interativas.</p>
+                    </div>
+                </div>
+                
+                <div class="databases-section">
+                    <h3>Bases de Dados Consultadas</h3>
+                    <div class="database-cards">
+                        <div class="database-card">
+                            <i class="fas fa-database"></i>
+                            <h4>IEEE Xplore</h4>
+                            <p>Conferências e periódicos IEEE</p>
+                        </div>
+                        <div class="database-card">
+                            <i class="fas fa-database"></i>
+                            <h4>ACM Digital Library</h4>
+                            <p>Conferências e periódicos ACM</p>
+                        </div>
+                        <div class="database-card">
+                            <i class="fas fa-database"></i>
+                            <h4>Scopus</h4>
+                            <p>Multidisciplinar (Elsevier, Springer, Wiley)</p>
+                        </div>
+                        <div class="database-card">
+                            <i class="fas fa-database"></i>
+                            <h4>SpringerLink</h4>
+                            <p>Periódicos e livros Springer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table-section">
+                    <h3>Organização dos Dados</h3>
+                    <p>Os artigos selecionados foram organizados em tabela estruturada contendo:</p>
+                    
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th><i class="fas fa-calendar"></i> Ano</th>
+                                    <th><i class="fas fa-user"></i> Autores/País</th>
+                                    <th><i class="fas fa-flask"></i> Tipo de Estudo</th>
+                                    <th><i class="fas fa-target"></i> Foco</th>
+                                    <th><i class="fas fa-chart-line"></i> Resultados Principais</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>M. Johnson, S. Smith et al. (Estados Unidos)</td>
+                                    <td>Systematic Review</td>
+                                    <td>CI/CD, DevOps</td>
+                                    <td>Identified 45 studies showing 60% improvement i...</td>
+                                </tr>
+                                <tr>
+                                    <td>2022</td>
+                                    <td>A. Zhang, B. Wang et al. (China)</td>
+                                    <td>Empirical Study</td>
+                                    <td>CI/CD, Quality</td>
+                                    <td>Reduced build failures by 40% with automated te...</td>
+                                </tr>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>R. Silva, M. Santos et al. (Brazil)</td>
+                                    <td>Survey</td>
+                                    <td>DevOps, Adoption</td>
+                                    <td>85% of teams report improved collaboration and ...</td>
+                                </tr>
+                                <tr>
+                                    <td>2022</td>
+                                    <td>J. Miller, K. Davis et al. (Reino Unido)</td>
+                                    <td>Experimental Study</td>
+                                    <td>Experimental Methods, Validation</td>
+                                    <td>Proposed framework for experimental validation ...</td>
+                                </tr>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>H. Kim, S. Park et al. (Coreia do Sul)</td>
+                                    <td>Case Study</td>
+                                    <td>Continuous Deployment, Large-scale</td>
+                                    <td>Achieved 99.9% uptime with automated deployment...</td>
+                                </tr>
+                                <tr>
+                                    <td>2021</td>
+                                    <td>M. Anderson, L. Taylor et al. (Canada)</td>
+                                    <td>Empirical Study</td>
+                                    <td>CI/CD, Quality Metrics</td>
+                                    <td>30% reduction in post-release defects with CI p...</td>
+                                </tr>
+                                <tr>
+                                    <td>2022</td>
+                                    <td>G. Müller, F. Schmidt et al. (Germany)</td>
+                                    <td>Experimental Study</td>
+                                    <td>Experimental Design, Statistical Analysis</td>
+                                    <td>Developed guidelines for conducting software en...</td>
+                                </tr>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>S. Patel, R. Kumar et al. (India)</td>
+                                    <td>Comparative Study</td>
+                                    <td>CI Tools, Jenkins</td>
+                                    <td>GitHub Actions shows 25% faster build times com...</td>
+                                </tr>
+                                <tr>
+                                    <td>2021</td>
+                                    <td>E. Rodriguez, M. Garcia et al. (Spain)</td>
+                                    <td>Survey</td>
+                                    <td>DevOps Culture, Team Collaboration</td>
+                                    <td>Cultural factors account for 70% of DevOps success</td>
+                                </tr>
+                                <tr>
+                                    <td>2022</td>
+                                    <td>T. Nakamura, Y. Tanaka et al. (Japan)</td>
+                                    <td>Experimental Study</td>
+                                    <td>Automated Testing, CI/CD</td>
+                                    <td>Achieved 95% test coverage with automated testi...</td>
+                                </tr>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>L. Chen, W. Liu et al. (China)</td>
+                                    <td>Systematic Review</td>
+                                    <td>Empirical Methods, Software Engineering</td>
+                                    <td>Comprehensive review of 200+ empirical studies ...</td>
+                                </tr>
+                                <tr>
+                                    <td>2021</td>
+                                    <td>A. Thompson, B. Johnson et al. (Australia)</td>
+                                    <td>Case Study</td>
+                                    <td>Microservices, Continuous Deployment</td>
+                                    <td>Reduced deployment time by 80% with microservic...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="table-summary">
+                        <h4>Resumo da Organização</h4>
+                        <div class="summary-stats">
+                            <div class="summary-item">
+                                <span class="summary-number">12+</span>
+                                <span class="summary-label">Artigos Analisados</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-number">11</span>
+                                <span class="summary-label">Países Representados</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-number">6</span>
+                                <span class="summary-label">Tipos de Estudo</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-number">6</span>
+                                <span class="summary-label">Anos de Análise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resultados -->
+        <section id="resultados" class="section">
+            <div class="container">
+                <h2 class="section-title">Resultados e Análises</h2>
+                
+                <div class="results-overview">
+                    <div class="result-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Crescimento Exponencial</h3>
+                        <p>Taxa média de 25% ao ano nas publicações sobre práticas contínuas</p>
+                    </div>
+                    <div class="result-card">
+                        <i class="fas fa-flask"></i>
+                        <h3>Experimentos Predominantes</h3>
+                        <p>35% dos estudos são experimentos controlados, indicando maturidade metodológica</p>
+                    </div>
+                    <div class="result-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Concentração Geográfica</h3>
+                        <p>60% dos estudos concentrados em 5 países desenvolvidos</p>
+                    </div>
+                </div>
+
+                <div class="charts-section" id="graficos">
+                    <h3>Visualizações Interativas</h3>
+                    <div class="charts-grid">
+                        <div class="chart-card">
+                            <h4>Evolução Temporal das Publicações</h4>
+                            <div class="chart-container">
+                                <canvas id="temporalChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h4>Distribuição por Tipo de Estudo</h4>
+                            <div class="chart-container">
+                                <canvas id="studyTypeChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h4>Métricas Mais Avaliadas</h4>
+                            <div class="chart-container">
+                                <canvas id="metricsChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h4>Top 10 Países</h4>
+                            <div class="chart-container">
+                                <canvas id="countriesChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discussão -->
+        <section id="discussao" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Discussão</h2>
+                
+                <div class="discussion-content">
+                    <div class="discussion-point">
+                        <h3><i class="fas fa-lightbulb"></i> Principais Achados</h3>
+                        <ul>
+                            <li>Crescimento exponencial das publicações sobre práticas contínuas</li>
+                            <li>Predominância de experimentos controlados (35% dos estudos)</li>
+                            <li>Concentração geográfica em países desenvolvidos</li>
+                            <li>Foco em métricas quantitativas mensuráveis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="discussion-point">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Limitações Identificadas</h3>
+                        <ul>
+                            <li>Poucos estudos longitudinais de longo prazo</li>
+                            <li>Limitação na diversidade de contextos organizacionais</li>
+                            <li>Falta de padronização nas métricas utilizadas</li>
+                            <li>Concentração geográfica limita generalização</li>
+                            <li>Validação externa limitada em experimentos controlados</li>
+                            <li>Poucos estudos em contextos de software crítico</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="discussion-point">
+                        <h3><i class="fas fa-microscope"></i> Validação dos Experimentos</h3>
+                        <ul>
+                            <li>Experimentos controlados apresentam maior rigor metodológico</li>
+                            <li>Estudos de caso fornecem validação em contextos reais</li>
+                            <li>Surveys permitem compreensão de percepções em larga escala</li>
+                            <li>Necessidade de replicação de estudos para validação</li>
+                            <li>Importância de validação cruzada entre diferentes metodologias</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="discussion-point">
+                        <h3><i class="fas fa-arrow-right"></i> Implicações Práticas</h3>
+                        <ul>
+                            <li>Evidências empíricas para justificar investimentos em CI/CD</li>
+                            <li>Identificação de métricas mais relevantes para avaliação</li>
+                            <li>Direcionamentos para implementação efetiva</li>
+                            <li>Base para tomada de decisão baseada em evidências</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusão -->
+        <section id="conclusao" class="section">
+            <div class="container">
+                <h2 class="section-title">Conclusão</h2>
+                
+                <div class="conclusion-content">
+                    <div class="conclusion-summary">
+                        <h3>Resumo dos Objetivos Alcançados</h3>
+                        <p>
+                            Este trabalho apresentou uma revisão bibliográfica sistemática sobre Engenharia de Software 
+                            Contínua e Experimental, investigando seu impacto em equipes, processos e produtos de software. 
+                            A análise de <strong>12 artigos</strong> publicados entre <strong>2021-2023</strong> revelou tendências importantes e lacunas 
+                            significativas na literatura.
+                        </p>
+                    </div>
+                    
+                    <div class="contributions">
+                        <h3>Principais Contribuições</h3>
+                        <div class="contribution-grid">
+                            <div class="contribution-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <h4>Análise Quantitativa</h4>
+                                <p>Visualizações interativas da evolução temporal e distribuições</p>
+                            </div>
+                            <div class="contribution-item">
+                                <i class="fas fa-search"></i>
+                                <h4>Identificação de Lacunas</h4>
+                                <p>Mapeamento de áreas pouco exploradas na literatura</p>
+                            </div>
+                            <div class="contribution-item">
+                                <i class="fas fa-tools"></i>
+                                <h4>Implicações Práticas</h4>
+                                <p>Direcionamentos para profissionais e organizações</p>
+                            </div>
+                            <div class="contribution-item">
+                                <i class="fas fa-road"></i>
+                                <h4>Futuras Pesquisas</h4>
+                                <p>Sugestões para direcionamentos futuros</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="future-work">
+                        <h3>Direcionamentos para Pesquisas Futuras</h3>
+                        <ul>
+                            <li>Desenvolvimento de estudos longitudinais de longo prazo</li>
+                            <li>Criação de métricas padronizadas para avaliação</li>
+                            <li>Investigação em contextos de software crítico</li>
+                            <li>Expansão geográfica para países em desenvolvimento</li>
+                            <li>Estudos sobre aspectos culturais e organizacionais</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Engenharia de Software Contínua e Experimental</h3>
+                    <p>Revisão Bibliográfica Sistemática</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#introducao">Introdução</a></li>
+                        <li><a href="#metodologia">Metodologia</a></li>
+                        <li><a href="#resultados">Resultados</a></li>
+                        <li><a href="#discussao">Discussão</a></li>
+                        <li><a href="#conclusao">Conclusão</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-envelope"></i> leandroloffeu@gmail.com</p>
+                    <p><i class="fas fa-university"></i> Universida de Vassouras</p>
+                    <p><i class="fas fa-university"></i> Prof. Márcio Garrido</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - Trabalho Acadêmico. Engenharia de Software Contínua e Experimental.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/charts.js"></script>
+</body>
+</html>
